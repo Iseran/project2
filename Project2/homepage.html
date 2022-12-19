@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--links my other html pages-->
+
+<link rel="stylesheet" href="project2.css">
+<link rel="stylesheet" href="homepage.html">
+<link rel="stylesheet" href="guitars.html">
+<link rel="stylesheet" href="pedals.html">
+<link rel="stylesheet" href="hardware.html">
+<!--link to javascript-->
+<script type="text/javascript"src="test.js"></script>
+
+<!--tells the html to connect to bootstrap for css-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Then Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<!-- Then Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<title>
+	Home Page
+</title>
+</head>
+
+<body>
+	<!--bootstrap navigation bar-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href=""><img src="mainlogo.webp" alt="guitarlogo" height="50px" width="50px"></a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+
+	  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item active">
+	        	<a class="nav-link" href="homepage.html">Home<span class="sr-only">(current)</span></a>
+	      		</li>
+	      		<li class="nav-item">
+	        	<a class="nav-link" href="guitars.html">Guitars</a>
+	      		</li>
+	      		<li class="nav-item">
+	        	<a class="nav-link" href="pedals.html">Pedals</a>
+	      		</li>
+	      		<li class="nav-item">
+	        	<a class="nav-link" href="hardware.html">Hardware</a>
+	      		</li>
+	      	</ul>
+	      		<form class="form-inline">
+					<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-info" type="submit">Search</button>
+				</form>
+	    </div>
+	</nav>
+
+<div class="parallax"></div>
+<div style="height:300px;background-color:palevioletred;font-size:36px">	
+	<h2 align="center"><i><b>On going sale!</b></i></h2>
+	<p>Our sales are going on all month! Check our great prices on guitars, pedals, and other accessories!</p>
+		<div class="center">
+			<a href="guitars.html"><button>Shop for Guitars</button></a>
+		</div>
+</div>
+	
+	<div class="center">
+		<img src="FramusStrato.webp" width="300" height="400" hspace="10px">
+		<img src="RKS.webp" width="300" height="400" hspace="10px">
+		<img src="IbanezRG770.jpg" width="300" height="400" hspace="10px">
+		<br>
+		<p align="center">We offer financing on most of our products with minimal interest!</p>
+	</div>
+
+<div class="parallax2"></div>
+<div style="height:300px;background-color:palevioletred;font-size:36px">	
+	<h2 align="center"><i><b>We also offer the widest selection of guitar pedals!</b></i></h2>
+	<p align="center">From the big guys like BOSS to the littles guys tinkering with circuits for fun we got it all!</p>
+		<div class="center">
+			<a href="pedals.html"><button>Shop for Pedals</button></a>
+		</div>
+</div>
+
+	<div class="center">
+		<img src="swollenpickle.webp" width="300" height="400" hspace="10px">
+		<img src="bosssuperchorus.webp" width="300" height="400" hspace="10px">
+		<img src="darkoldblood.webp" width="300" height="400" hspace="10px">
+		<br>
+		<p align="center">Any sound that you are looking to make we can help with!</p>
+	</div>
+
+<div class="parallax3"></div>
+<div style="height:300px;background-color:palevioletred;font-size:36px">	
+	<h2 align="center"><i><b>Cables, screws, pickups, anything you could possibly need!</b></i></h2>
+	<p align="center">Can't make it to the show without proper hardware, we have deals on all things you could need!</p>
+		<div class="center">
+			<a href="hardware.html"><button>Shop for Hardware</button></a>
+		</div>
+</div>
+
+<br>
+<hr>
+ <p align="center"><b><i>Join our newsletter so you never missout on great deals~!</i></b></p>
+<div class="center">
+	<!--bootstrap form-->
+	<form>
+  		<label for="fname">First name:</label><br>
+  		<input type="text" id="fname" name="fname" value=""><br>
+  		<label for="lname">Last name:</label><br>
+  		<input type="text" id="lname" name="lname" value=""><br>
+  		<label for="email">Email:</label><br>
+  		<input type="text" id="email" name="email" value=""><br>
+  		<input type="submit" value="Sign Up!" style="margin: 10px;">
+	</form>
+</div>
+
+
+<br><br><br>
+<p class="footer">copyright 2022</p>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--links my other html pages-->
+<link rel="stylesheet" href="project2.css">
+<link rel="stylesheet" href="homepage.html">
+<link rel="stylesheet" href="guitars.html">
+<link rel="stylesheet" href="pedals.html">
+<link rel="stylesheet" href="hardware.html">
+<!--link to javascript-->
+<script type="text/javascript"src="test.js"></script>
+
+<!--tells the html to connect to bootstrap for css-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Then Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<!-- Then Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<title>
+	Pedals
+</title>
+</head>
+
+<body>
+<!--bootstrap navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href=""><img src="mainlogo.webp" alt="guitarlogo" height="50px" width="50px"></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  	</button>
+
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="navbar-nav mr-auto">
+      		<li class="nav-item active">
+        	<a class="nav-link" href="homepage.html">Home</a>
+      		</li>
+      		<li class="nav-item">
+        	<a class="nav-link" href="guitars.html">Guitars</a>
+      		</li>
+      		<li class="nav-item">
+        	<a class="nav-link" href="pedals.html">Pedals<span class="sr-only">(current)</span></a>
+      		</li>
+      		<li class="nav-item">
+        	<a class="nav-link" href="hardware.html">Hardware</a>
+      		</li>
+      	</ul>
+      		<form class="form-inline">
+				<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-info" type="submit">Search</button>
+			</form>
+    </div>
+</nav>
+
+<br>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Looking for that special sounds? You found the right place</h1>
+		<p>From dirty gain to the spaciest reverb, you'll find what you need</p>
+	</div>
+</div>
+
+<br><br>
+<div class="imgBlock">
+    <img src="yellowfallbypass.webp" alt="Bypass Pedal">
+    <h4>Yellow Fall Bypass Pedal</h4>
+    <p>100$</p>
+    <div class="container">
+    	<button onclick="myFunction1()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc1"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="duallooper.webp" alt="Dual Looper Pedal">
+    <h4>Dual Looper Pedal</h4>
+    <p>150$</p>
+    <div class="container">
+    	<button onclick="myFunction2()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc2"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="darkoldblood.webp" alt="Dark Old Blood Pedal">
+    <h4>Dark Star Old Blood Reverb Pedal</h4>
+    <p>300$</p>
+    <div class="container">
+    	<button onclick="myFunction3()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc3"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="starxpedal.webp" alt="StarX Tuning Pedal">
+    <h4>StarX Tuning Pedal</h4>
+    <p>200$</p>
+    <div class="container">
+    	<button onclick="myFunction4()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc4"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="bosssuperchorus.webp" alt="Boss Super Chorus Pedal">
+    <h4>Boss Super Chorus Pedal</h4>
+    <p>100$</p>
+    <div class="container">
+    	<button onclick="myFunction5()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc5"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="swollenpickle.webp" alt="Swollen Pickle">
+    <h4>Swollen Pickle Gain Pedal</h4>
+    <p>300$</p>
+    <div class="container">
+    	<button onclick="myFunction6()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc6"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="modfuzzer.webp" alt="Mod Fuzzer Pedal">
+    <h4>Mod Fuzzer Distortion Pedal</h4>
+    <p>150$</p>
+    <div class="container">
+    	<button onclick="myFunction7()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc7"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="bossdistortion.webp" alt="Boss Distortion Pedal">
+    <h4>Boss Distortion Pedal</h4>
+    <p>100$</p>
+    <div class="container">
+    	<button onclick="myFunction8()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc8"></p>
+	</div>
+</div>
+<div class="imgBlock">
+    <img src="bosssuperoctave.webp" alt="Boss Super Octave Pedal">
+    <h4>Boss Super Octave Pedal</h4>
+    <p>250$</p>
+    <div class="container">
+    	<button onclick="myFunction9()">Info</button>
+    	<button type="button" class="btn btn-outline">Buy</button>
+    	<button type="button" class="btn btn-outline">Add to cart</button>
+    	<p id="desc9"></p>
+	</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+<p class="footer">copyright 2022</p>
+
+</body>
+</html>

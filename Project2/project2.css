@@ -1,0 +1,61 @@
+img{
+  border-radius: 15px;
+}
+
+.center{
+  margin:auto;
+  width: fit-content;
+  padding: 10px;
+}
+
+.parallax {
+  /* The image used in background*/
+  background-image: url("logo.png");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("genericpedals.webp");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("hardware.webp");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgBlock {
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+.imgBlock img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.footer {
+  font-size: x-small;
+}
